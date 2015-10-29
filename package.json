@@ -1,14 +1,14 @@
 {
-  "name": "flummox",
-  "version": "4.0.0-alpha2",
+  "name": "flummox4",
+  "version": "4.0.0",
   "description": "Idiomatic, modular, testable, isomorphic Flux. No singletons required.",
   "main": "lib/Flux.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/acdlite/flummox.git"
+    "url": "https://github.com/sagemathinc/flummox.git"
   },
-  "homepage": "https://github.com/acdlite/flummox/blob/latest/README.md",
-  "bugs": "https://github.com/acdlite/flummox/issues",
+  "homepage": "https://github.com/sagemathinc/flummox",
+  "bugs": "https://github.com/sagemathinc/flummox/issues",
   "scripts": {
     "test": "make fast-js test",
     "prepublish": "npm run test"
@@ -21,7 +21,7 @@
     "facebook",
     "es6"
   ],
-  "author": "Andrew Clark <acdlite@me.com>",
+  "author": "Andrew Clark <acdlite@me.com>, fork by William Stein <wstein@sagemath.com>",
   "license": "MIT",
   "devDependencies": {
     "babel": "~5.5.4",
